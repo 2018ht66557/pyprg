@@ -9,3 +9,5 @@ cvs1 = cv.transform([s1])  ##converts s1 into a vector
 cvs2 = cv.transform([s2]) ##converts s2 into a vector
 
 print 1-cosine(cvs1.todense(),cvs2.todense())
+## Cosine similarity comments
+
