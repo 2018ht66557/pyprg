@@ -18,4 +18,6 @@ print metrics.f1_score(y_test,pred)
 
 scores = cross_val_score(clf, B, y, cv=5, scoring='f1')
 print scores.mean()
-print scores
+# print scores
+# end of program
+
